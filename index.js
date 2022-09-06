@@ -68,7 +68,7 @@ client.on("messageCreate", message => {
         if (isNaN(message.content)) {
             try {
                 /**
-                 * Vérification si il y a NaN et que ce n'est pas une opération
+                 * Vérification si il y a NaN et que c'est une opération
                  */
                 if (isNaN(eval(message.content))) {
                     return;
