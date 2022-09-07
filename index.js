@@ -283,7 +283,7 @@ client.on("interactionCreate", async interaction => {
          * Meilleur score
          */
         if (interaction.commandName === "highscore") {
-            interaction.reply({content: "Meilleur score : **"+Config["highscore"]+"**",ephemeral: true});
+            interaction.reply({content: "Meilleur score : **"+Config["highscore"]+"**"});
             return
         }
 
